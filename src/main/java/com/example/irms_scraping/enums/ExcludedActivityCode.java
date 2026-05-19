@@ -1,4 +1,4 @@
-package com.example.irms_scraping.enumm;
+package com.example.irms_scraping.enums;
 
 public enum ExcludedActivityCode {
 

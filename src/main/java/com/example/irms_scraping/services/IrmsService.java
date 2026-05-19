@@ -5,7 +5,7 @@ import com.example.irms_scraping.dto.BusinessEntityListDTO;
 import com.example.irms_scraping.dto.BusinessEntityListResponse;
 import com.example.irms_scraping.entity.BusinessActivity;
 import com.example.irms_scraping.entity.BusinessEntityDB;
-import com.example.irms_scraping.enumm.ExcludedActivityCode;
+import com.example.irms_scraping.enums.ExcludedActivityCode;
 import com.example.irms_scraping.repository.BusinessEntityRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.mail.SimpleMailMessage;
@@ -16,7 +16,6 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 @Service
 @RequiredArgsConstructor
